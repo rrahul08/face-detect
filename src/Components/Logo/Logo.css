@@ -1,0 +1,7 @@
+.Tilt{
+    background: white;
+    position: absolute;
+    transform: scale(0.5,0.5);
+    top: 1%;
+    left: 2%;
+}

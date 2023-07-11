@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: x-large;
+    src: local('uncut sans'), url('Uncut-Sans-Bold.woff') format('woff');
+}
+
+.title{
+ font-family: 'uncut sans';
+ font-weight: 800;
+ font-size: 140px;
+ 
+ color: whitesmoke;
+} 
+.face{
+    position: absolute;
+    top:-10%;
+    left:7%;
+    
+    
+}
+.detect{
+    position: absolute;
+ top:13%;
+ left:7%;
+}
+
+.img{
+    position: absolute;
+    width:60%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    
+    
+}
+.cont{
+    padding-right: 1200px;
+}
+
+.register{
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: x-large;
+    color: #6345d1;
+    
+}
+
+.name, .mail, .password, .button{
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: medium;
+    color: #6345d1;
+}
+
+.card{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    transform: translateX(110%);
+    backdrop-filter: blur(14px);
+	background-color: 
+    transparent; 
+    padding-left: 65px;
+    padding-right: 65px;
+    
+   
+   
+}
+
+.reg{
+    height:50px;
+    color:whitesmoke;
+    background-color: #6345d1;
+    
+    
+}
+
+
+
+  
+
+
+

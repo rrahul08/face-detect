@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: x-large;
+    src: local('uncut sans'), url('Uncut-Sans-Bold.woff') format('woff');
+}
+
+.img{
+    position: absolute;
+    width:60%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    
+    
+}
+.enter{
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: 50px;
+    color: #6345d1;
+}
+
+.email, .pass, .reg{
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: medium;
+    color: #6345d1;
+}
+
+.butsign{
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: medium;
+    background-color: #6345d1;
+    color: whitesmoke;
+    height: 50px;
+    
+}
+
+.card{
+    backdrop-filter: blur(14px);
+	background-color: 
+    #195075; 
+}

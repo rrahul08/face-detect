@@ -1,0 +1,26 @@
+img{
+  object-fit: cover;
+}
+
+.facerec{
+  position:absolute;
+  top:63%;
+  left:35%;
+  width: 500px;
+}
+
+.absolute {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+}
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px whitesmoke inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+  }

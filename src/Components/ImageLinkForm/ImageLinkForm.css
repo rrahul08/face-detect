@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: x-large;
+    src: local('uncut sans'), url('Uncut-Sans-Bold.woff') format('woff');
+}
+body{
+  background: #e3e8ec;
+}
+.container {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+  }
+
+ 
+
+
+ 
+
+  .input-field {
+    flex: 70%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+  }
+
+  .detect-button {
+    flex: 30%;
+    padding: 8px;
+    height:90px;
+    width: 100PX;
+    border: none;
+    outline: none;
+    
+    background-color: #6345d1;
+    color: whitesmoke;
+    font-family:'uncut sans' ;
+    font-size: 25px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  .para{
+    font-family: 'uncut sans';
+    padding-left:50px;
+    font-size: 48px;
+    color:#6345d1;
+    position: absolute;
+    top: 14%;
+    left: 25%;
+    margin-bottom: 9px;
+  }
+
+  .paragraph{
+    font-family: 'uncut sans';
+    padding-left: 10px;
+    font-size: 48px;
+    color: #6345d1;
+    position: absolute;
+    top: 36%;
+    left: 40%;
+    margin-top: 8px;
+    margin-bottom: 60px;
+  }
+  .head{
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size:60px;
+    background: linear-gradient(to right, #009FFF, #ec2F4B); /* Replace with your desired gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  
+    position: absolute;
+    top: -18px;
+    left: 8%;
+  }
+  
+
